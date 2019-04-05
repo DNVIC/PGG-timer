@@ -19,6 +19,6 @@ while constant = 0:
   textFile2.write(timeZone)
   while count < 100:
     nowTime = datetime.now(timezone(timeZone))
-    textFile.write(now_time.strftime(fmt))
+    textFile.write(nowTime.strftime(fmt))
     count +=1
     sleep(0.1)
